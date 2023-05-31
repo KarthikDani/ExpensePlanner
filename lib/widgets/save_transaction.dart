@@ -47,7 +47,7 @@ class _SaveTransactionState extends State<SaveTransaction> {
   Widget build(BuildContext context) {
     return Card(
       child: Container(
-        height: 500,
+        height: MediaQuery.of(context).viewInsets.bottom + 300,
         padding: const EdgeInsets.all(10),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
