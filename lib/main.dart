@@ -143,7 +143,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
     );
-    return Platform.isIOS ? MaterialApp(
+    return MaterialApp(
       theme: ThemeData(
           primarySwatch: Colors.indigo,
           appBarTheme: const AppBarTheme(
